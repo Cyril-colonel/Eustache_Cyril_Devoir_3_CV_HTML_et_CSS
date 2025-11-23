@@ -19,3 +19,15 @@ img {
     border: solid 4px #ffffff;
     border-radius: 50%;
 }
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+div img {
+   display: none;
+}
