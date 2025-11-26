@@ -12,7 +12,8 @@ body {
     font-family: "raleway", sans-serif;
     margin: auto;
     width: 1160px;
-    background-color: #e3e3e3;
+    background-color: #f5f5f5;
+    color: #333333;
 }
 
 #profile {
@@ -38,7 +39,7 @@ header {
     flex-wrap: wrap;
     justify-content: right;
     align-items: center;
-    margin: auto 10px 0px;
+    margin: auto;
     height: 20%;
     background-color: #17abb3;
 }
@@ -58,4 +59,50 @@ h2 {
     height: 30px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+body main section aside {
+    display: flex;
+    flex-direction: column;
+    background-color: #e3e3e3;
+    height: 1140px;
+    width: 400px;
+}
+
+body main section aside div:first-of-type ul {
+    list-style-type: none;
+}
+
+body main section aside div:first-of-type ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+body main section aside div:nth-of-type(2) ul {
+    list-style-type: none;
+}
+
+body main section aside div:nth-of-type(2) ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+body main section aside div:nth-of-type(3) ul li {
+    list-style-type: square;
+}
+
+body main section aside div:nth-of-type(4) ul li {
+    list-style-type: square;
+}
+
+body main section aside div:nth-of-type(3) ul li::marker {
+    color: #17abb3;
+    font-size: larger;
+}
+
+body main section aside div:nth-of-type(4) ul li::marker {
+    color: #17abb3;
+    font-size: larger;
 }
