@@ -206,3 +206,27 @@ span {
 body main article div:last-of-type ul li {
     color: #17abb3;
 }
+
+body footer {
+    background-color: #17abb3;
+    height: 100px;
+}
+
+body footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    color: #ffffff;
+    font-size: x-large;
+    padding-top: 20px;
+}
+ 
+body footer p {
+    color: #ffffff;
+    font-style: italic;
+    font-size: small;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
