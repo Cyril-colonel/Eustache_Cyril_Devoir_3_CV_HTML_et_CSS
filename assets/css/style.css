@@ -90,6 +90,10 @@ body main section aside div:nth-of-type(2) ul li {
     font-weight: bold;
 }
 
+body main section aside div:nth-of-type(2) ul li p {
+    font-weight: lighter;
+}
+
 body main section aside div:nth-of-type(3) ul li {
     list-style-type: square;
     margin-left: 20px;
@@ -158,17 +162,14 @@ body main {
 }
 
 body main section article {
-    padding-top: 15px;
-    padding-left: 35px;
-    width: 790px;
-}
-
-body main section article {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    padding-top: 15px;
+    padding-left: 35px;
+    width: 725px;
 }
 
 body main section article div ul li {
@@ -185,5 +186,23 @@ body main section article h2 {
 
 body main section article:first-of-type {
     flex: none;
-    text-indent: 20px;
+}
+
+body main section article:first-of-type p {
+    text-indent: 50px;
+    text-align: justify;
+}
+
+body main article div:first-of-type ul li {
+    font-weight: bold;
+}
+
+span {
+    font-weight: lighter;
+    font-size: small;
+    font-style: italic;
+}
+
+body main article div:last-of-type ul li {
+    color: #17abb3;
 }
